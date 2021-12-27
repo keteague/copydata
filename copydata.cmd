@@ -36,7 +36,7 @@ set _log=%_ds%@%_ts%.log
 
 
 :copy
-%_rc% %_source% %_dest% /xo /b /copyall /r:1 /w:1 /MT:64 /v /mir /log+:%_log% /tee
+%_rc% %_source% %_dest% /xo /b /copyall /r:1 /w:1 /MT:8 /v /mir /copy:dat /dcopy:dat /log+:%_log% /tee
 echo.
 echo.
 echo Done!
